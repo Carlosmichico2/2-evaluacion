@@ -3,7 +3,7 @@
 #include<iostream>
 
 int main(){
-    //definición de variables
+    //definiciÃ³n de variables
     int ntabla;
     char salir;
     int cont;
