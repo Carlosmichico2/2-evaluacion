@@ -1,19 +1,20 @@
-#include<iostream>
-/*vamos a hacer un programa que dibuje un bello cuadrado del tama√±o que nos diga el usuario*/
 
-
-int main(){
-    //Defenicion
+# include < iostream >
+/ * Hagamos un cuadrado * /
+int  main () {
+    int lado;
     char salir;
-    int lado,col,fil;
-    std::cout<<"Dime el tamano: ";
-    std::cin>>lado;
-    for(col=1;col<=lado;col++){
-        for(fil=1;fil<=lado;fil++){
-            std::cout<<'*';
-        }
-        std::cout<<"\n";
+    int col, fil;
+    std :: cout << " de que tamaÒo quieres el cuadrado: " ;
+    std :: cin >> lado;
+    std :: cout << " \ n " ;
+    para (col = 1 ; col <= lado; col ++) {
+               para (fil = 1 ; fil <= lado; fil ++) {
+               std :: cout << " * " ;         
+               }
+               std :: cout << " \ n " ;
     }
-       
-     std::cin>>salir;
+    
+    std :: cin >> salir;
 }
+//asesorado por Laarriba
